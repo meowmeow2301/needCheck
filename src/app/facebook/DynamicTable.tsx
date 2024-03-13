@@ -1,6 +1,10 @@
 import { Table } from 'react-bootstrap';
 
-const DynamicTable = ({ rowCount }) => {
+interface RowCountProps {
+    rowCount: number;
+  }
+  
+  const DynamicTable = ({ rowCount }: RowCountProps) => {
     const renderTableRows = () => {
         const rows = [];
         for (let i = 1; i <= rowCount; i++) {

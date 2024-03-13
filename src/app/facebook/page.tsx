@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Col, Row } from 'react-bootstrap';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import './todayContest.module.css'
-import DynamicTable from "/Users/Admin/Documents/hocReact/nextJs/app-new/src/components/table/DynamicTable"
+import DynamicTable from "/Users/Admin/Documents/hocReact/nextJs/app-new/src/app/facebook/DynamicTable"
 
 
 const Facebook = () => {
@@ -22,7 +22,7 @@ const Facebook = () => {
                     <DynamicTable rowCount={rowCount} ></DynamicTable>
                 </Col>
                 <Col xs={3}>
-                    <h3 className='mt-5 pt-5 text-primary'>Nhập mã phòng</h3>
+                    <h3 className='mt-5 pt-5 text-primary'>"nhap ma phong"</h3>
                     <div>
                         <InputGroup className="mb-3">
                             <FormControl
